@@ -1,5 +1,5 @@
 import discord
-import.os
+import os
 
 client = discord.Client()
 
