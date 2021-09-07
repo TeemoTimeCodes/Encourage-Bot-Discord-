@@ -12,7 +12,7 @@ async def on_ready():
     if message.author == client.user:
       return
 
-      if message.content.statswith('$hello'):
+      if message.content.startswith('$hello'):
        await message.channel.send('Hello!')
 
       client.run(os.environ('TOKEN'))
