@@ -78,6 +78,8 @@ client.on('message', message => {
                 client.commands.get('search').execute(message, args, client, Discord)
             } else if(command == 'playlist'){
                 client.commands.get('playlist').execute(message, args, client, Discord)
+            } else if(command == 'userinfo'){
+                client.commands.get('userinfo').execute(message, args, client, Discord)
             }
 
 
