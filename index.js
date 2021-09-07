@@ -74,8 +74,9 @@ client.on('message', message => {
                 client.commands.get('suggest').execute(message, args, client, Discord)
             } else if(command == 'ticket'){
                 client.commands.get('ticket').execute(message, args, client, Discord)
+            } else if(command == 'search'){
+                client.commands.get('search').execute(message, args, client, Discord)
             }
-
 
 
             });
