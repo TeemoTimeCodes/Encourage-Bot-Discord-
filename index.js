@@ -76,6 +76,8 @@ client.on('message', message => {
                 client.commands.get('ticket').execute(message, args, client, Discord)
             } else if(command == 'search'){
                 client.commands.get('search').execute(message, args, client, Discord)
+            } else if(command == 'playlist'){
+                client.commands.get('playlist').execute(message, args, client, Discord)
             }
 
 
