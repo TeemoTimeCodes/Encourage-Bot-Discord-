@@ -80,6 +80,8 @@ client.on('message', message => {
                 client.commands.get('playlist').execute(message, args, client, Discord)
             } else if(command == 'userinfo'){
                 client.commands.get('userinfo').execute(message, args, client, Discord)
+            } else if(command == 'encourage'){
+                client.commands.get('encourage').execute(message, args, client, Discord)
             }
 
 
